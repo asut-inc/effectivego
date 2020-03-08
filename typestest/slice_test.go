@@ -56,5 +56,4 @@ func TestSliceByPointerAppend(t *testing.T) {
 	if !reflect.DeepEqual(a, b) {
 		t.Errorf("Slices equal A: %v, B: %v", a, b)
 	}
-
 }
